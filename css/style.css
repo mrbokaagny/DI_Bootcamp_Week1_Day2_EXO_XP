@@ -1,0 +1,51 @@
+body{
+    margin: 0;}
+    
+    
+    .navbar{
+    background-color: black;
+    padding: 15px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        margin-right:20px ;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    
+    li a:hover{
+    color: black;
+    background-color: aliceblue;}
+    
+    #logo{
+    padding: 14px;
+    margin-left: 20px;
+    color: white;
+    font-size: 55px;
+    }
+    
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
